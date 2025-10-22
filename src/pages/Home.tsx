@@ -22,7 +22,7 @@ export const Home = () => {
         <div className="container relative z-10 mx-auto flex h-full items-center px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl text-primary-foreground">
             <h1 className="mb-6 text-4xl font-bold sm:text-5xl lg:text-6xl">
-              Bem-vindo ao Echinodermata Explorer
+              Bem-vindo ao Echinodermata Wiki
             </h1>
             <p className="mb-8 text-lg sm:text-xl leading-relaxed">
               Os equinodermos são animais marinhos fascinantes, como estrelas-do-mar e ouriços-do-mar, 
