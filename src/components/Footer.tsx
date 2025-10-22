@@ -56,7 +56,7 @@ export const Footer = () => {
 
         <div className="border-t border-border pt-8 text-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Echinodermata Explorer | Site educativo desenvolvido por: Carlos Eduardo Martins Pozenatto, Rafael Baccin.
+            © {new Date().getFullYear()} Echinodermata Wiki | Site educativo desenvolvido por: Carlos Eduardo Martins Pozenatto, Rafael Baccin.
           </p>
         </div>
       </div>
