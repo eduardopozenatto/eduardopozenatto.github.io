@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight, Star, Shell, Waves } from "lucide-react";
+import { Footer } from "@/components/Footer";
 import heroImage from "@/assets/hero-starfish.jpg";
 
 export const Home = () => {
@@ -119,6 +120,8 @@ export const Home = () => {
           </Link>
         </div>
       </section>
+
+      <Footer />
     </div>
   );
 };
