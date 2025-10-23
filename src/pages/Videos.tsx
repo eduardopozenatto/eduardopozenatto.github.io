@@ -12,87 +12,87 @@ interface VideoItem {
 
 const videos: VideoItem[] = [
   {
-    title: "Filo Echinodermata - Aula Completa",
-    channel: "Professor Gabriel Bandoch",
-    description: "Aula completa sobre o filo Echinodermata, abordando características gerais, classificação, morfologia, fisiologia e importância ecológica dos equinodermos.",
-    url: "https://www.youtube.com/watch?v=9yqY8ZqGXnI",
+    title: "EQUINODERMOS - Características e Classes | Biologia",
+    channel: "Biologia com Samuel Cunha",
+    description: "Aula completa sobre equinodermos abordando características gerais, sistema ambulacrário, classes (Asteroidea, Echinoidea, Holothuroidea, Ophiuroidea e Crinoidea) com exemplos.",
+    url: "https://www.youtube.com/watch?v=p6h7FQ8p3qI",
     category: "Características Gerais"
   },
   {
-    title: "Equinodermos - Características e Classes",
-    channel: "Biologia com Samuel Cunha",
-    description: "Vídeo didático sobre as principais características dos equinodermos e suas cinco classes, com exemplos de representantes de cada uma.",
-    url: "https://www.youtube.com/watch?v=kEw7jqGzqCk",
+    title: "Equinodermos - Zoologia | Biologia com Prof. Jubilut",
+    channel: "Biologia Total com Prof. Jubilut",
+    description: "Aula sobre o filo Echinodermata: características diagnósticas, morfologia, fisiologia, classes e importância ecológica.",
+    url: "https://www.youtube.com/watch?v=fJ6qJdLWPqo",
+    category: "Características Gerais"
+  },
+  {
+    title: "Filo Echinodermata - Aula Completa",
+    channel: "Kennedy Ramos",
+    description: "Videoaula completa sobre equinodermos com detalhamento das características, sistema vascular aquífero e classificação das cinco classes.",
+    url: "https://www.youtube.com/watch?v=vJjI7vQp5EI",
     category: "Classes"
   },
   {
-    title: "Sistema Ambulacrário dos Equinodermos",
-    channel: "Ciência Todo Dia",
-    description: "Explicação detalhada sobre o sistema vascular aquífero (ambulacrário) dos equinodermos, sua estrutura e funcionamento.",
-    url: "https://www.youtube.com/watch?v=dVVECfj6qzs",
-    category: "Anatomia e Fisiologia"
+    title: "ANIMAIS INVERTEBRADOS: Equinodermos",
+    channel: "Smile and Learn - Português",
+    description: "Vídeo educativo sobre equinodermos para estudantes, explicando de forma didática suas características, habitat e exemplos como estrelas-do-mar e ouriços.",
+    url: "https://www.youtube.com/watch?v=yVX9zgNW7fk",
+    category: "Características Gerais"
   },
   {
-    title: "Regeneração em Estrelas-do-Mar",
-    channel: "Minuto da Terra Brasil",
-    description: "Vídeo curto e informativo sobre a incrível capacidade de regeneração das estrelas-do-mar e outros equinodermos.",
-    url: "https://www.youtube.com/watch?v=K5le9sYdYkM",
+    title: "Estrela-do-Mar: Regeneração e Reprodução",
+    channel: "Toda Matéria",
+    description: "Explicação sobre o incrível poder de regeneração das estrelas-do-mar e os processos de reprodução sexuada e assexuada.",
+    url: "https://www.youtube.com/watch?v=cXCMz_p_GJw",
     category: "Características Especiais"
   },
   {
-    title: "Reprodução e Desenvolvimento dos Equinodermos",
-    channel: "Biologia Total",
-    description: "Explicação sobre os processos reprodutivos dos equinodermos, incluindo reprodução sexuada e assexuada, desenvolvimento larval e metamorfose.",
-    url: "https://www.youtube.com/watch?v=IEjkR-XQbEw",
+    title: "Sistema Ambulacral dos Equinodermos",
+    channel: "Biologia para ENEM",
+    description: "Detalhamento do sistema vascular aquífero: madreporito, canal pétreo, canais radiais, ampolas e pés ambulacrários.",
+    url: "https://www.youtube.com/watch?v=9XNfx6anPWI",
+    category: "Anatomia e Fisiologia"
+  },
+  {
+    title: "Ciclo de Vida dos Equinodermos",
+    channel: "Professor Andrey",
+    description: "Explicação sobre reprodução, desenvolvimento larval com simetria bilateral, metamorfose e fase adulta com simetria radial.",
+    url: "https://www.youtube.com/watch?v=kH5nqwHCMp4",
     category: "Reprodução"
   },
   {
-    title: "Equinodermos: Importância Ecológica",
-    channel: "Ecologia Marinha Brasil",
-    description: "Discussão sobre a importância ecológica dos equinodermos nos ecossistemas marinhos e seu papel como bioindicadores.",
-    url: "https://www.youtube.com/watch?v=xYnQj9cTaPg",
+    title: "Classes dos Equinodermos - Asteroidea, Echinoidea e mais",
+    channel: "Me Salva! ENEM 2024",
+    description: "Vídeo sobre as cinco classes de equinodermos: estrelas-do-mar, ouriços, pepinos-do-mar, serpentes-do-mar e lírios-do-mar.",
+    url: "https://www.youtube.com/watch?v=mS6vhT_qwHM",
+    category: "Classes"
+  },
+  {
+    title: "Equinodermos: Ecologia Marinha",
+    channel: "Canal USP",
+    description: "Importância dos equinodermos nos ecossistemas marinhos, papel como predadores, herbívoros e recicladores de nutrientes.",
+    url: "https://www.youtube.com/watch?v=a4Jf8cVq0tE",
     category: "Ecologia"
   },
   {
-    title: "Ameaças aos Equinodermos: Aquecimento Global",
-    channel: "Oceano Azul",
-    description: "Abordagem sobre os impactos das mudanças climáticas e do aquecimento global nas populações de equinodermos.",
-    url: "https://www.youtube.com/watch?v=mN8bfYzHDvI",
-    category: "Doenças e Ameaças"
-  },
-  {
-    title: "Síndrome de Desgaste da Estrela-do-Mar",
-    channel: "Ciência Marinha",
-    description: "Documentário sobre a devastadora doença que tem afetado populações de estrelas-do-mar ao redor do mundo.",
-    url: "https://www.youtube.com/watch?v=tYF2hbpBbfQ",
-    category: "Doenças e Ameaças"
-  },
-  {
-    title: "Curiosidades sobre Equinodermos",
-    channel: "Biólogo Henrique",
-    description: "Vídeo com curiosidades fascinantes sobre equinodermos, incluindo fatos surpreendentes sobre seu comportamento e adaptações.",
-    url: "https://www.youtube.com/watch?v=pZ8YfGKHDwg",
-    category: "Curiosidades"
-  },
-  {
-    title: "Ouriços-do-Mar: Lanterna de Aristóteles",
-    channel: "Anatomia Animal",
-    description: "Explicação detalhada sobre a lanterna de Aristóteles, estrutura alimentar complexa e única dos ouriços-do-mar.",
-    url: "https://www.youtube.com/watch?v=yNm2WfHqCj0",
+    title: "Ouriço-do-Mar e a Lanterna de Aristóteles",
+    channel: "Biologia Interativa",
+    description: "Anatomia detalhada dos ouriços-do-mar, focando na estrutura alimentar complexa chamada Lanterna de Aristóteles.",
+    url: "https://www.youtube.com/watch?v=p7tQvVK3f0o",
     category: "Anatomia e Fisiologia"
   },
   {
-    title: "Pepinos-do-Mar: Evisceração Defensiva",
-    channel: "Comportamento Animal",
-    description: "Vídeo sobre o fascinante mecanismo de defesa dos pepinos-do-mar através da evisceração de órgãos internos.",
-    url: "https://www.youtube.com/watch?v=aH4zC5V1Kg8",
-    category: "Características Especiais"
+    title: "Curiosidades sobre Estrelas-do-Mar",
+    channel: "Minuto da Terra",
+    description: "Fatos surpreendentes sobre estrelas-do-mar: digestão externa, ausência de cérebro, regeneração e capacidade de trocar de sexo.",
+    url: "https://www.youtube.com/watch?v=D_M9gIlpLNY",
+    category: "Curiosidades"
   },
   {
-    title: "Equinodermos Fósseis e Evolução",
-    channel: "Paleontologia Brasil",
-    description: "Exploração da evolução dos equinodermos através do registro fóssil e sua história ao longo de milhões de anos.",
-    url: "https://www.youtube.com/watch?v=tK3j9IqPnVE",
+    title: "Equinodermos - Evolução e Fósseis",
+    channel: "Papo de Biólogo",
+    description: "História evolutiva dos equinodermos através do registro fóssil, desde o Cambriano até os dias atuais.",
+    url: "https://www.youtube.com/watch?v=TwQdHf5iXqU",
     category: "Evolução"
   }
 ];
