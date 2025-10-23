@@ -94,9 +94,7 @@ export const Reproduction = () => {
         <CardHeader>
           <CardTitle className="text-2xl">Estágios do Ciclo de Vida</CardTitle>
         </CardHeader>
-<<<<<<< HEAD
-        <CardContent>
-=======
+
         <CardContent className="space-y-6">
           {/* Life Cycle Diagram */}
           <div className="mb-6">
@@ -110,7 +108,6 @@ export const Reproduction = () => {
             </p>
           </div>
           
->>>>>>> cd9ad13a4817c7544254039b72ab00f286247a2b
           <div className="grid gap-6 md:grid-cols-4">
             <div className="text-center">
               <div className="mb-3 mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 text-primary font-bold text-xl">
