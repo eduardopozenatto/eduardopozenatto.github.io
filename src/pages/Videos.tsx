@@ -90,7 +90,7 @@ const videos: VideoItem[] = [
   },
   {
     title: "EQUINODERMOS - Características e Classes | Biologia",
-    channel: "Biologia com Samuel Cunh",
+    channel: "Biologia com Samuel Cunha",
     description: "História evolutiva dos equinodermos, e suas funções atuais.",
     url: "https://youtu.be/EEvHb-NpGbg?si=oNYr8f5sfFgXodnE",
     category: "Evolução"
