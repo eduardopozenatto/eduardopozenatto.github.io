@@ -11,6 +11,8 @@ const navLinks = [
   { name: "Reprodução", path: "/reproducao" },
   { name: "Doenças e Ameaças", path: "/doencas" },
   { name: "Curiosidades", path: "/curiosidades" },
+  { name: "Personagens", path: "/personagens" },
+  { name: "Vídeos", path: "/videos" },
   { name: "Quiz", path: "/quiz" },
 ];
 

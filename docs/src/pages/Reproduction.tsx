@@ -1,4 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import lifeCycle from "@/assets/life-cycle.jpg";
 import { Heart, Users, RefreshCw, Sparkles } from "lucide-react";
 
 export const Reproduction = () => {
