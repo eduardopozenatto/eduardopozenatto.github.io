@@ -188,5 +188,5 @@ export const Videos = () => {
           </div>
         </div>
       ))}
-  );
+  )
 };
