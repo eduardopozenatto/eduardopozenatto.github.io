@@ -15,84 +15,84 @@ const videos: VideoItem[] = [
     title: "EQUINODERMOS - Características e Classes | Biologia",
     channel: "Biologia com Samuel Cunha",
     description: "Aula completa sobre equinodermos abordando características gerais, sistema ambulacrário, classes (Asteroidea, Echinoidea, Holothuroidea, Ophiuroidea e Crinoidea) com exemplos.",
-    url: "https://www.youtube.com/watch?v=p6h7FQ8p3qI",
+    url: "https://youtu.be/EEvHb-NpGbg?si=Crx6fqoAx2PLmo_y",
     category: "Características Gerais"
   },
   {
     title: "Equinodermos - Zoologia | Biologia com Prof. Jubilut",
-    channel: "Biologia Total com Prof. Jubilut",
+    channel: "Bio  Comigo",
     description: "Aula sobre o filo Echinodermata: características diagnósticas, morfologia, fisiologia, classes e importância ecológica.",
-    url: "https://www.youtube.com/watch?v=fJ6qJdLWPqo",
+    url: "https://youtu.be/uyKV5ZlawQo?si=L73Wd0h-GHeq5uv4",
     category: "Características Gerais"
   },
   {
-    title: "Filo Echinodermata - Aula Completa",
-    channel: "Kennedy Ramos",
-    description: "Videoaula completa sobre equinodermos com detalhamento das características, sistema vascular aquífero e classificação das cinco classes.",
-    url: "https://www.youtube.com/watch?v=vJjI7vQp5EI",
+    title: "Resumo - ECHINODERMOS",
+    channel: "Com Ciência",
+    description: "resumo completo sobre equinodermos com detalhamento das características, sistema vascular aquífero e classificação das cinco classes.",
+    url: "https://youtu.be/yPfTRpNM54g?si=H-LhdQaUsIv4CjvY",
     category: "Classes"
   },
   {
     title: "ANIMAIS INVERTEBRADOS: Equinodermos",
     channel: "Smile and Learn - Português",
     description: "Vídeo educativo sobre equinodermos para estudantes, explicando de forma didática suas características, habitat e exemplos como estrelas-do-mar e ouriços.",
-    url: "https://www.youtube.com/watch?v=yVX9zgNW7fk",
+    url: "https://youtu.be/zOd7pVk5f4o?si=tOs63uPcAJxBMHST",
     category: "Características Gerais"
   },
   {
-    title: "Estrela-do-Mar: Regeneração e Reprodução",
-    channel: "Toda Matéria",
-    description: "Explicação sobre o incrível poder de regeneração das estrelas-do-mar e os processos de reprodução sexuada e assexuada.",
-    url: "https://www.youtube.com/watch?v=cXCMz_p_GJw",
+    title: "Starfish Limb Regeneration",
+    channel: "Alyssa Reiano",
+    description: "Vídeo sobre demonstrativo sobre a incrível regeneração da estrela-do-mar.",
+    url: "https://youtu.be/PV1tEq4HRoQ?si=gHXN4-yB_2ztfs2V",
     category: "Características Especiais"
   },
   {
     title: "Sistema Ambulacral dos Equinodermos",
-    channel: "Biologia para ENEM",
+    channel: "Kuadro Oficial",
     description: "Detalhamento do sistema vascular aquífero: madreporito, canal pétreo, canais radiais, ampolas e pés ambulacrários.",
-    url: "https://www.youtube.com/watch?v=9XNfx6anPWI",
+    url: "https://youtu.be/IB3X4Yiru68?si=Lfs11OLbhpUaOJ2A",
     category: "Anatomia e Fisiologia"
   },
   {
     title: "Ciclo de Vida dos Equinodermos",
-    channel: "Professor Andrey",
+    channel: "Laboratório de Tecnologias Educacionais",
     description: "Explicação sobre reprodução, desenvolvimento larval com simetria bilateral, metamorfose e fase adulta com simetria radial.",
-    url: "https://www.youtube.com/watch?v=kH5nqwHCMp4",
+    url: "https://youtu.be/IpvbrLZCWF4?si=7OXR9hTzLUSjW0Cd",
     category: "Reprodução"
   },
   {
     title: "Classes dos Equinodermos - Asteroidea, Echinoidea e mais",
-    channel: "Me Salva! ENEM 2024",
+    channel: "Pandêmicos",
     description: "Vídeo sobre as cinco classes de equinodermos: estrelas-do-mar, ouriços, pepinos-do-mar, serpentes-do-mar e lírios-do-mar.",
-    url: "https://www.youtube.com/watch?v=mS6vhT_qwHM",
+    url: "https://youtu.be/xD7vva_raNc?si=6gGm4SbkjqC2o4fV",
     category: "Classes"
   },
   {
-    title: "Equinodermos: Ecologia Marinha",
-    channel: "Canal USP",
+    title: "Equinodermos: as fascinantes criaturas marinhas.",
+    channel: "Canal Ciências",
     description: "Importância dos equinodermos nos ecossistemas marinhos, papel como predadores, herbívoros e recicladores de nutrientes.",
-    url: "https://www.youtube.com/watch?v=a4Jf8cVq0tE",
+    url: "https://youtu.be/5rhVXYoLYe0?si=G4HkrB4p0m4yeNqa",
     category: "Ecologia"
   },
   {
     title: "Ouriço-do-Mar e a Lanterna de Aristóteles",
-    channel: "Biologia Interativa",
+    channel: "Play Ciências - Prof. Leandro Batista",
     description: "Anatomia detalhada dos ouriços-do-mar, focando na estrutura alimentar complexa chamada Lanterna de Aristóteles.",
-    url: "https://www.youtube.com/watch?v=p7tQvVK3f0o",
+    url: "https://youtu.be/MdM6kEvIBCo?si=trXox7B67XEms0CY",
     category: "Anatomia e Fisiologia"
   },
   {
     title: "Curiosidades sobre Estrelas-do-Mar",
-    channel: "Minuto da Terra",
+    channel: "Academia dos Curiosos",
     description: "Fatos surpreendentes sobre estrelas-do-mar: digestão externa, ausência de cérebro, regeneração e capacidade de trocar de sexo.",
-    url: "https://www.youtube.com/watch?v=D_M9gIlpLNY",
+    url: "https://youtu.be/0AO3djjkxPA?si=dzSNpCPU73VQhWK1",
     category: "Curiosidades"
   },
   {
-    title: "Equinodermos - Evolução e Fósseis",
-    channel: "Papo de Biólogo",
-    description: "História evolutiva dos equinodermos através do registro fóssil, desde o Cambriano até os dias atuais.",
-    url: "https://www.youtube.com/watch?v=TwQdHf5iXqU",
+    title: "EQUINODERMOS - Características e Classes | Biologia",
+    channel: "Biologia com Samuel Cunh",
+    description: "História evolutiva dos equinodermos, e suas funções atuais.",
+    url: "https://youtu.be/EEvHb-NpGbg?si=oNYr8f5sfFgXodnE",
     category: "Evolução"
   }
 ];
@@ -188,28 +188,5 @@ export const Videos = () => {
           </div>
         </div>
       ))}
-
-      {/* Footer Note */}
-      <Card className="mt-12 border-primary/30 bg-primary/5 ocean-shadow">
-        <CardHeader>
-          <CardTitle className="text-xl sm:text-2xl">Nota Importante</CardTitle>
-        </CardHeader>
-        <CardContent className="space-y-4">
-          <p className="text-base leading-relaxed">
-            Os vídeos apresentados nesta página são de propriedade de seus respectivos criadores 
-            e estão disponíveis publicamente no YouTube. Este site não hospeda nenhum conteúdo de 
-            vídeo, apenas fornece links para recursos educacionais de qualidade.
-          </p>
-          <p className="text-base leading-relaxed">
-            Recomendamos que você inscreva-se nos canais dos criadores e apoie seu trabalho educacional. 
-            A disponibilidade dos vídeos depende dos criadores originais e pode mudar ao longo do tempo.
-          </p>
-          <p className="text-base leading-relaxed font-semibold">
-            Se você é um educador e gostaria de ter seu conteúdo sobre equinodermos listado aqui, 
-            ou se é proprietário de algum dos vídeos listados e gostaria de removê-lo, entre em contato.
-          </p>
-        </CardContent>
-      </Card>
-    </div>
   );
 };
