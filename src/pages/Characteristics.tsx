@@ -1,5 +1,15 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import waterVascularImage from "@/assets/water-vascular-system.jpg";
+<<<<<<< HEAD
+=======
+import radialSymmetry from "@/assets/radial-symmetry.jpg";
+import endoskeleton from "@/assets/endoskeleton.jpg";
+import digestiveSystem from "@/assets/digestive-system.jpg";
+import nervousSystem from "@/assets/nervous-system.jpg";
+import regeneration from "@/assets/regeneration.jpg";
+import pedicellariae from "@/assets/pedicellariae.jpg";
+import madreporite from "@/assets/madreporite.jpg";
+>>>>>>> cd9ad13a4817c7544254039b72ab00f286247a2b
 import { CheckCircle2, Microscope, Network, Shield, Dna } from "lucide-react";
 
 export const Characteristics = () => {
@@ -110,6 +120,26 @@ export const Characteristics = () => {
       {/* Main Characteristics with Icons */}
       <div className="mb-16">
         <h2 className="mb-8 text-3xl font-bold">Características Diagnósticas Principais</h2>
+<<<<<<< HEAD
+=======
+        
+        {/* Images Grid for Main Characteristics */}
+        <div className="grid gap-6 sm:grid-cols-2 mb-8">
+          <div className="relative overflow-hidden rounded-lg ocean-shadow">
+            <img src={radialSymmetry} alt="Simetria radial pentarradial" className="w-full h-64 object-cover" />
+            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
+              <p className="text-white font-semibold">Simetria Radial Pentarradial</p>
+            </div>
+          </div>
+          <div className="relative overflow-hidden rounded-lg ocean-shadow">
+            <img src={endoskeleton} alt="Endoesqueleto calcário" className="w-full h-64 object-cover" />
+            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
+              <p className="text-white font-semibold">Endoesqueleto de Carbonato de Cálcio</p>
+            </div>
+          </div>
+        </div>
+        
+>>>>>>> cd9ad13a4817c7544254039b72ab00f286247a2b
         <div className="space-y-6">
           {mainCharacteristics.map((char, index) => (
             <Card key={index} className="ocean-shadow smooth-transition hover:scale-[1.01]">
@@ -220,6 +250,32 @@ export const Characteristics = () => {
       {/* Anatomical Systems */}
       <div className="mb-16">
         <h2 className="mb-8 text-3xl font-bold">Sistemas Anatômicos Detalhados</h2>
+<<<<<<< HEAD
+=======
+        
+        {/* Images Grid for Anatomical Systems */}
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 mb-8">
+          <div className="relative overflow-hidden rounded-lg ocean-shadow">
+            <img src={digestiveSystem} alt="Sistema digestório" className="w-full h-56 object-cover" />
+            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-3">
+              <p className="text-white font-semibold text-sm">Sistema Digestório</p>
+            </div>
+          </div>
+          <div className="relative overflow-hidden rounded-lg ocean-shadow">
+            <img src={nervousSystem} alt="Sistema nervoso" className="w-full h-56 object-cover" />
+            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-3">
+              <p className="text-white font-semibold text-sm">Sistema Nervoso</p>
+            </div>
+          </div>
+          <div className="relative overflow-hidden rounded-lg ocean-shadow">
+            <img src={madreporite} alt="Madreporito" className="w-full h-56 object-cover" />
+            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-3">
+              <p className="text-white font-semibold text-sm">Madreporito Detalhado</p>
+            </div>
+          </div>
+        </div>
+        
+>>>>>>> cd9ad13a4817c7544254039b72ab00f286247a2b
         <div className="space-y-6">
           {anatomicalSystems.map((system, index) => (
             <Card key={index} className="ocean-shadow">
@@ -247,6 +303,26 @@ export const Characteristics = () => {
       {/* Special Features */}
       <div className="mb-16">
         <h2 className="mb-8 text-3xl font-bold">Características Especiais e Adaptações</h2>
+<<<<<<< HEAD
+=======
+        
+        {/* Images for Special Features */}
+        <div className="grid gap-6 sm:grid-cols-2 mb-8">
+          <div className="relative overflow-hidden rounded-lg ocean-shadow">
+            <img src={regeneration} alt="Processo de regeneração" className="w-full h-64 object-cover" />
+            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
+              <p className="text-white font-semibold">Regeneração em Equinodermos</p>
+            </div>
+          </div>
+          <div className="relative overflow-hidden rounded-lg ocean-shadow">
+            <img src={pedicellariae} alt="Pedicelários" className="w-full h-64 object-cover" />
+            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
+              <p className="text-white font-semibold">Estruturas Dérmicas (Pedicelários)</p>
+            </div>
+          </div>
+        </div>
+        
+>>>>>>> cd9ad13a4817c7544254039b72ab00f286247a2b
         <div className="grid gap-6 md:grid-cols-2">
           {specialFeatures.map((feature, index) => (
             <Card key={index} className="ocean-shadow smooth-transition hover:ocean-shadow hover:scale-105">

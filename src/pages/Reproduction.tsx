@@ -1,4 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import lifeCycle from "@/assets/life-cycle.jpg";
 import { Heart, Users, RefreshCw, Sparkles } from "lucide-react";
 
 export const Reproduction = () => {
@@ -93,7 +94,23 @@ export const Reproduction = () => {
         <CardHeader>
           <CardTitle className="text-2xl">Estágios do Ciclo de Vida</CardTitle>
         </CardHeader>
+<<<<<<< HEAD
         <CardContent>
+=======
+        <CardContent className="space-y-6">
+          {/* Life Cycle Diagram */}
+          <div className="mb-6">
+            <img 
+              src={lifeCycle} 
+              alt="Ciclo de vida completo dos equinodermos" 
+              className="w-full h-auto max-h-96 object-contain rounded-lg ocean-shadow mx-auto" 
+            />
+            <p className="text-sm text-muted-foreground text-center mt-3 leading-relaxed">
+              Diagrama completo mostrando os estágios do ciclo de vida: ovo → larva planctônica (bilateral) → metamorfose → adulto (radial)
+            </p>
+          </div>
+          
+>>>>>>> cd9ad13a4817c7544254039b72ab00f286247a2b
           <div className="grid gap-6 md:grid-cols-4">
             <div className="text-center">
               <div className="mb-3 mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 text-primary font-bold text-xl">

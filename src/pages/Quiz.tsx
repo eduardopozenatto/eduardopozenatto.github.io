@@ -214,12 +214,12 @@ export const Quiz = () => {
             <p className="text-lg font-semibold text-primary">
               {getScoreMessage()}
             </p>
-            <div className="pt-4 space-y-3">
-              <Button onClick={handleRestart} size="lg" className="w-full">
+            <div className="pt-4 space-y-3 flex flex-col sm:flex-row sm:space-y-0 sm:space-x-3">
+              <Button onClick={handleRestart} size="lg" className="w-full sm:flex-1">
                 <RotateCcw className="mr-2 h-5 w-5" />
                 Tentar Novamente
               </Button>
-              <Button variant="outline" size="lg" className="w-full" onClick={() => window.location.href = "/"}>
+              <Button variant="outline" size="lg" className="w-full sm:flex-1" onClick={() => window.location.href = "/"}>
                 Voltar ao Início
               </Button>
             </div>
@@ -244,7 +244,7 @@ export const Quiz = () => {
       </div>
 
       <div className="max-w-3xl mx-auto mb-8">
-        <div className="flex items-center justify-between mb-2">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 mb-2">
           <span className="text-sm font-medium">
             Questão {currentQuestion + 1} de {questions.length}
           </span>
@@ -283,8 +283,8 @@ export const Quiz = () => {
                   onClick={() => handleAnswerSelect(index)}
                   disabled={showExplanation}
                 >
-                  <div className="flex items-center gap-3 w-full">
-                    <div className="flex h-8 w-8 items-center justify-center rounded-full border-2 flex-shrink-0">
+                  <div className="flex items-start sm:items-center gap-3 w-full">
+                    <div className="flex h-8 w-8 items-center justify-center rounded-full border-2 flex-shrink-0 mt-0.5 sm:mt-0">
                       {showExplanation && index === question.correctAnswer && (
                         <CheckCircle2 className="h-5 w-5 text-primary" />
                       )}
@@ -295,7 +295,7 @@ export const Quiz = () => {
                         <span className="text-sm font-semibold">{String.fromCharCode(65 + index)}</span>
                       )}
                     </div>
-                    <span className="flex-1">{option}</span>
+                    <span className="flex-1 text-left break-words">{option}</span>
                   </div>
                 </Button>
               );
@@ -326,7 +326,7 @@ export const Quiz = () => {
 
           {showExplanation && (
             <div className="flex justify-end pt-4">
-              <Button onClick={handleNext} size="lg">
+              <Button onClick={handleNext} size="lg" className="w-full sm:w-auto">
                 {currentQuestion < questions.length - 1 ? 'Próxima Questão' : 'Ver Resultado'}
               </Button>
             </div>
