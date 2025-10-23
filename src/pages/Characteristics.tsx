@@ -117,8 +117,6 @@ export const Characteristics = () => {
       {/* Main Characteristics with Icons */}
       <div className="mb-16">
         <h2 className="mb-8 text-3xl font-bold">Características Diagnósticas Principais</h2>
-<<<<<<< HEAD
-=======
         
         {/* Images Grid for Main Characteristics */}
         <div className="grid gap-6 sm:grid-cols-2 mb-8">
@@ -135,8 +133,7 @@ export const Characteristics = () => {
             </div>
           </div>
         </div>
-        
->>>>>>> cd9ad13a4817c7544254039b72ab00f286247a2b
+      
         <div className="space-y-6">
           {mainCharacteristics.map((char, index) => (
             <Card key={index} className="ocean-shadow smooth-transition hover:scale-[1.01]">
@@ -247,8 +244,6 @@ export const Characteristics = () => {
       {/* Anatomical Systems */}
       <div className="mb-16">
         <h2 className="mb-8 text-3xl font-bold">Sistemas Anatômicos Detalhados</h2>
-<<<<<<< HEAD
-=======
         
         {/* Images Grid for Anatomical Systems */}
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 mb-8">
@@ -272,7 +267,6 @@ export const Characteristics = () => {
           </div>
         </div>
         
->>>>>>> cd9ad13a4817c7544254039b72ab00f286247a2b
         <div className="space-y-6">
           {anatomicalSystems.map((system, index) => (
             <Card key={index} className="ocean-shadow">
@@ -300,8 +294,6 @@ export const Characteristics = () => {
       {/* Special Features */}
       <div className="mb-16">
         <h2 className="mb-8 text-3xl font-bold">Características Especiais e Adaptações</h2>
-<<<<<<< HEAD
-=======
         
         {/* Images for Special Features */}
         <div className="grid gap-6 sm:grid-cols-2 mb-8">
@@ -319,7 +311,6 @@ export const Characteristics = () => {
           </div>
         </div>
         
->>>>>>> cd9ad13a4817c7544254039b72ab00f286247a2b
         <div className="grid gap-6 md:grid-cols-2">
           {specialFeatures.map((feature, index) => (
             <Card key={index} className="ocean-shadow smooth-transition hover:ocean-shadow hover:scale-105">
