@@ -184,9 +184,8 @@ export const Videos = () => {
                     </a>
                   </CardContent>
                 </Card>
-              ))}
           </div>
         </div>
       ))}
-  )
+  );
 };
