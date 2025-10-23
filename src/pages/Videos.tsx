@@ -190,38 +190,4 @@ export const Videos = () => {
       ))}
     </div>
   );
-};                                Assistir no YouTube
-                    </a>
-                  </CardContent>
-                </Card>
-              ))}
-          </div>
-        </div>
-      ))}
-    </div>
-  );
-};                      {video.channel}
-                    </p>
-                  </CardHeader>
-                  <CardContent className="space-y-4">
-                    <p className="text-sm leading-relaxed text-muted-foreground line-clamp-3">
-                      {video.description}
-                    </p>
-                    <a
-                      href={video.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground smooth-transition hover:bg-primary/90 w-full justify-center"
-                    >
-                      <ExternalLink className="h-4 w-4" />
-                      Assistir no YouTube
-                    </a>
-                  </CardContent>
-                </Card>
-              ))}
-          </div>
-        </div>
-      ))}
-    </div>
-  );
 };
