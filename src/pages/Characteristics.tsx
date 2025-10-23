@@ -1,7 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import waterVascularImage from "@/assets/water-vascular-system.jpg";
-<<<<<<< HEAD
-=======
 import radialSymmetry from "@/assets/radial-symmetry.jpg";
 import endoskeleton from "@/assets/endoskeleton.jpg";
 import digestiveSystem from "@/assets/digestive-system.jpg";
@@ -9,7 +7,6 @@ import nervousSystem from "@/assets/nervous-system.jpg";
 import regeneration from "@/assets/regeneration.jpg";
 import pedicellariae from "@/assets/pedicellariae.jpg";
 import madreporite from "@/assets/madreporite.jpg";
->>>>>>> cd9ad13a4817c7544254039b72ab00f286247a2b
 import { CheckCircle2, Microscope, Network, Shield, Dna } from "lucide-react";
 
 export const Characteristics = () => {
