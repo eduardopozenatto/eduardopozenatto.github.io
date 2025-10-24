@@ -95,17 +95,6 @@ export const Reproduction = () => {
         </CardHeader>
 
         <CardContent className="space-y-6">
-          {/* Life Cycle Diagram */}
-          <div className="mb-6">
-            <img 
-              src={lifeCycle} 
-              alt="Ciclo de vida completo dos equinodermos" 
-              className="w-full h-auto max-h-96 object-contain rounded-lg ocean-shadow mx-auto" 
-            />
-            <p className="text-sm text-muted-foreground text-center mt-3 leading-relaxed">
-              Veja como eles crescem: do ovo até virar adulto com formato de estrela
-            </p>
-          </div>
           
           <div className="grid gap-6 md:grid-cols-4">
             <div className="text-center">
