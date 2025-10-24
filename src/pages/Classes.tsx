@@ -12,7 +12,7 @@ export const Classes = () => {
       commonName: "Estrelas-do-mar",
       diversity: "~1.900 espécies",
       example: "Asterias rubens (estrela-do-mar-comum), Pisaster ochraceus (estrela-do-mar-ocre)",
-      description: "Asteroides são caracterizados por corpo achatado em forma de estrela com cinco braços (ou múltiplos de cinco em algumas espécies como Solaster spp. com até 50 braços). Os braços não são claramente delimitados do disco central, gradando suavemente do centro para a periferia. A boca está localizada no centro da superfície oral (inferior) e o ânus e madreporito na superfície aboral (superior).",
+      description: "Asteroides são caracterizados por corpo achatado em forma de estrela com cinco braços (ou múltiplos de cinco em algumas espécies como a estrela-do-mar-girassol com 16-24 braços). Os braços não são claramente delimitados do disco central, gradando suavemente do centro para a periferia. A boca está localizada no centro da superfície oral (inferior) e o ânus e madreporito na superfície aboral (superior).",
       morphology: [
         "Endoesqueleto flexível de ossículos calcários fracamente articulados",
         "Braços contêm extensões do celoma, sistema digestório e gônadas",
