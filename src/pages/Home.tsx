@@ -25,9 +25,9 @@ export const Home = () => {
               Bem-vindo ao Echinodermata Wiki
             </h1>
             <p className="mb-8 text-lg sm:text-xl leading-relaxed">
-              Os equinodermos são animais marinhos fascinantes, como estrelas-do-mar e ouriços-do-mar, 
-              conhecidos por sua simetria radial e sistema vascular aquífero único. Explore este mundo 
-              incrível com conteúdo científico de qualidade.
+              Descubra o fascinante mundo das estrelas-do-mar, ouriços-do-mar e pepinos-do-mar! 
+              São animais marinhos únicos com formato de estrela e um sistema hidráulico incrível 
+              que os ajuda a se mover pelo fundo do mar.
             </p>
             <Link to="/caracteristicas">
               <Button size="lg" variant="secondary" className="group">
@@ -45,7 +45,7 @@ export const Home = () => {
           <div className="mb-12 text-center">
             <h2 className="mb-4 text-3xl font-bold sm:text-4xl">Descubra os Equinodermos</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Aprenda sobre as características únicas, diversidade e importância ecológica destes fascinantes animais marinhos
+              Aprenda sobre as características especiais, os diferentes tipos e a importância destes animais para o oceano
             </p>
           </div>
 
@@ -55,9 +55,9 @@ export const Home = () => {
                 <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg ocean-gradient">
                   <Star className="h-6 w-6 text-primary-foreground" />
                 </div>
-                <h3 className="mb-2 text-xl font-semibold">5 Classes Diversas</h3>
+                <h3 className="mb-2 text-xl font-semibold">5 Grupos Diferentes</h3>
                 <p className="text-muted-foreground">
-                  Explore as cinco classes de equinodermos: asteroides, ofiuroides, equinoides, holotúrias e crinoides.
+                  Conheça os cinco grupos principais: estrelas-do-mar, estrelas-serpentes, ouriços, pepinos-do-mar e lírios-do-mar.
                 </p>
                 <Link to="/classes">
                   <Button variant="link" className="mt-4 px-0">
@@ -72,9 +72,9 @@ export const Home = () => {
                 <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg ocean-gradient">
                   <Waves className="h-6 w-6 text-primary-foreground" />
                 </div>
-                <h3 className="mb-2 text-xl font-semibold">Sistema Único</h3>
+                <h3 className="mb-2 text-xl font-semibold">Sistema Hidráulico</h3>
                 <p className="text-muted-foreground">
-                  Conheça o sistema vascular aquífero, uma característica exclusiva dos equinodermos.
+                  Descubra como eles usam água do mar para se mover - um sistema único no reino animal!
                 </p>
                 <Link to="/caracteristicas">
                   <Button variant="link" className="mt-4 px-0">
@@ -89,9 +89,9 @@ export const Home = () => {
                 <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg ocean-gradient">
                   <Shell className="h-6 w-6 text-primary-foreground" />
                 </div>
-                <h3 className="mb-2 text-xl font-semibold">Curiosidades Incríveis</h3>
+                <h3 className="mb-2 text-xl font-semibold">Fatos Surpreendentes</h3>
                 <p className="text-muted-foreground">
-                  Descubra fatos fascinantes sobre a regeneração, defesa e comportamento dos equinodermos.
+                  Sabia que eles podem regenerar partes do corpo e têm superpoderes de defesa?
                 </p>
                 <Link to="/curiosidades">
                   <Button variant="link" className="mt-4 px-0">
@@ -111,7 +111,7 @@ export const Home = () => {
             Teste Seus Conhecimentos
           </h2>
           <p className="mb-8 text-lg text-primary-foreground/90 max-w-2xl mx-auto">
-            Complete nosso quiz interativo e descubra o quanto você aprendeu sobre os equinodermos!
+            Teste seus conhecimentos com perguntas divertidas e veja quanto você aprendeu!
           </p>
           <Link to="/quiz">
             <Button size="lg" variant="secondary">

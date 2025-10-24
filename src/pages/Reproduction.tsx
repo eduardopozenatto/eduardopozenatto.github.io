@@ -10,8 +10,8 @@ export const Reproduction = () => {
           <span className="text-gradient">Ciclo de Vida</span> e Reprodução
         </h1>
         <p className="text-lg text-muted-foreground max-w-3xl">
-          Os equinodermos apresentam estratégias reprodutivas fascinantes, combinando reprodução sexuada com 
-          desenvolvimento larval complexo e, em alguns casos, reprodução assexuada através de regeneração.
+          Como os equinodermos se reproduzem e crescem? Eles usam tanto reprodução sexuada (com machos e fêmeas) 
+          quanto assexuada (regeneração). Vamos descobrir!
         </p>
       </div>
 
@@ -27,11 +27,10 @@ export const Reproduction = () => {
         </CardHeader>
         <CardContent className="space-y-4">
           <div>
-            <h3 className="font-semibold mb-2 text-lg">Características Gerais</h3>
+            <h3 className="font-semibold mb-2 text-lg">Como Funciona</h3>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              A maioria dos equinodermos são dioicos (sexos separados), embora existam algumas espécies hermafroditas. 
-              A reprodução ocorre principalmente através de fertilização externa, onde os gametas são liberados 
-              diretamente na água do mar.
+              A maioria tem machos e fêmeas separados. A reprodução acontece na água do mar: machos e fêmeas 
+              liberam seus gametas (óvulos e espermatozoides) na água ao mesmo tempo, e a fertilização acontece lá.
             </p>
           </div>
 
@@ -44,19 +43,19 @@ export const Reproduction = () => {
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
-                  <span>Fertilização externa em ambiente marinho</span>
+                  <span>Óvulos e espermatozoides se encontram na água</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
-                  <span>Sincronização reprodutiva através de feromônios</span>
+                  <span>Usam sinais químicos para liberar gametas juntos</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
-                  <span>Produção de grande quantidade de gametas</span>
+                  <span>Produzem milhões de gametas</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
-                  <span>Algumas espécies apresentam cuidado parental limitado</span>
+                  <span>Alguns cuidam dos bebês protegendo-os sob o corpo</span>
                 </li>
               </ul>
             </div>
@@ -69,19 +68,19 @@ export const Reproduction = () => {
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
-                  <span>Desenvolvimento indireto com estágio larval planctônico</span>
+                  <span>Bebês passam por estágio de larva nadadora</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
-                  <span>Larvas com simetria bilateral (diferente dos adultos)</span>
+                  <span>Larvas têm formato bilateral (como nós)</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
-                  <span>Tipos larvais: bipinária, pluteus, auriculária</span>
+                  <span>Cada grupo tem um tipo diferente de larva</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
-                  <span>Metamorfose complexa para forma adulta radial</span>
+                  <span>Depois sofrem metamorfose virando forma de estrela</span>
                 </li>
               </ul>
             </div>
@@ -104,7 +103,7 @@ export const Reproduction = () => {
               className="w-full h-auto max-h-96 object-contain rounded-lg ocean-shadow mx-auto" 
             />
             <p className="text-sm text-muted-foreground text-center mt-3 leading-relaxed">
-              Diagrama completo mostrando os estágios do ciclo de vida: ovo → larva planctônica (bilateral) → metamorfose → adulto (radial)
+              Veja como eles crescem: do ovo até virar adulto com formato de estrela
             </p>
           </div>
           
@@ -192,9 +191,9 @@ export const Reproduction = () => {
 
           <div className="space-y-4">
             <div className="rounded-lg border border-border p-4 bg-muted/30">
-              <h4 className="font-semibold mb-2 text-lg">Regeneração</h4>
+              <h4 className="font-semibold mb-2 text-lg">Regeneração: Reparando o Corpo</h4>
               <p className="text-muted-foreground mb-3 text-sm leading-relaxed">
-                A capacidade de regeneração é uma das características mais impressionantes dos equinodermos:
+                Eles têm superpoderes de regeneração - podem recuperar partes perdidas do corpo:
               </p>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li className="flex items-start gap-2">
@@ -217,12 +216,11 @@ export const Reproduction = () => {
             </div>
 
             <div className="rounded-lg border border-border p-4 bg-muted/30">
-              <h4 className="font-semibold mb-2 text-lg">Fissão</h4>
+              <h4 className="font-semibold mb-2 text-lg">Fissão: Dividir para Multiplicar</h4>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Algumas espécies podem se reproduzir por fissão, onde o corpo se divide em duas partes, 
-                e cada parte regenera as porções faltantes para formar um indivíduo completo. 
-                Este processo é observado em algumas estrelas-do-mar e pepinos-do-mar, sendo uma estratégia 
-                eficaz de reprodução assexuada em ambientes favoráveis.
+                Algumas espécies se dividem ao meio, e cada metade cresce as partes que faltam, 
+                virando dois animais completos! É uma forma de reprodução assexuada - não precisa 
+                de macho e fêmea. Isso acontece em algumas estrelas-do-mar e pepinos-do-mar.
               </p>
             </div>
           </div>
@@ -232,16 +230,14 @@ export const Reproduction = () => {
       {/* Evolutionary Significance */}
       <Card className="ocean-gradient text-primary-foreground">
         <CardContent className="p-8">
-          <h3 className="mb-4 text-2xl font-bold">Importância Evolutiva</h3>
+          <h3 className="mb-4 text-2xl font-bold">Por que Isso Importa?</h3>
           <p className="mb-4 leading-relaxed">
-            O desenvolvimento larval dos equinodermos fornece evidências importantes sobre sua relação evolutiva 
-            com os cordados. As larvas bilaterais de equinodermos compartilham características com larvas de 
-            hemicordados e cordados, sugerindo um ancestral deuterostômio comum.
+            As larvas dos equinodermos nos dão pistas sobre evolução! Quando são bebês, têm formato bilateral 
+            (como nós). Isso mostra que são nossos parentes distantes, compartilhando um ancestral comum.
           </p>
           <p className="leading-relaxed">
-            A transição da simetria bilateral das larvas para a simetria radial dos adultos representa uma 
-            adaptação única que reflete o modo de vida bentônico desses animais, permitindo interação eficiente 
-            com o ambiente em todas as direções.
+            A mudança de bilateral (larva) para radial (adulto) é uma adaptação incrível para viver no fundo 
+            do mar, onde é útil poder interagir com o ambiente em todas as direções!
           </p>
         </CardContent>
       </Card>

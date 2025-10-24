@@ -5,26 +5,26 @@ export const Curiosities = () => {
   const facts = [
     {
       icon: Sparkles,
-      title: "Estômago Eversível",
-      description: "As estrelas-do-mar possuem uma capacidade extraordinária: podem expelir seu estômago pela boca, colocá-lo sobre a presa (geralmente um molusco), e realizar a digestão externamente. Após digerir o conteúdo da presa, retraem o estômago de volta para dentro do corpo. Esta adaptação permite que comam presas maiores que sua boca.",
+      title: "Estômago para Fora!",
+      description: "Estrelas-do-mar têm um poder incrível: podem botar o estômago para fora pela boca e colocar em cima da presa! Digerem a comida do lado de fora do corpo. Depois puxam o estômago de volta. Isso permite comer coisas maiores que a boca delas.",
       color: "text-accent"
     },
     {
       icon: Shield,
-      title: "Evisceração Defensiva",
-      description: "Pepinos-do-mar têm um mecanismo de defesa único: quando ameaçados, podem expelir parte ou todos os seus órgãos internos (intestinos, sistema respiratório) através do ânus para confundir ou prender predadores em uma massa pegajosa. Surpreendentemente, conseguem regenerar completamente esses órgãos em poucas semanas!",
+      title: "Defesa Extrema",
+      description: "Pepinos-do-mar têm uma defesa maluca: quando atacados, expelem seus órgãos internos (intestinos, pulmões) pelo ânus! Isso confunde ou prende o predador numa massa pegajosa. O mais impressionante: regeneram tudo de novo em poucas semanas!",
       color: "text-primary"
     },
     {
       icon: Brain,
-      title: "Parentes dos Humanos",
-      description: "Embora pareça improvável, os equinodermos são parentes evolutivos mais próximos dos vertebrados (incluindo humanos) do que de outros invertebrados como insetos ou moluscos. Compartilhamos um ancestral deuterostômio comum, evidenciado por características embrionárias similares. Esta relação nos ajuda a entender a evolução dos cordados.",
+      title: "Nossos Primos Marinhos",
+      description: "Parece estranho, mas equinodermos são parentes mais próximos de humanos do que de insetos ou moluscos! Compartilhamos um ancestral comum. Quando são embriões, se desenvolvem de forma parecida conosco. Estudá-los nos ajuda a entender como evoluímos!",
       color: "text-primary-light"
     },
     {
       icon: Clock,
-      title: "Longevidade Surpreendente",
-      description: "Alguns ouriços-do-mar vivem mais de 100 anos! O ouriço-do-mar-vermelho (Strongylocentrotus franciscanus) pode viver até 200 anos, mostrando poucos sinais de envelhecimento. Estudos revelam que mantêm capacidade reprodutiva mesmo em idades avançadas, desafiando conceitos tradicionais sobre senescência.",
+      title: "Vidas Longas",
+      description: "Alguns ouriços-do-mar vivem mais de 100 anos! O ouriço-vermelho pode viver até 200 anos e quase não envelhece. Continuam tendo filhotes mesmo bem velhos. São campeões de longevidade!",
       color: "text-accent"
     }
   ];
@@ -79,8 +79,7 @@ export const Curiosities = () => {
           <span className="text-gradient">Curiosidades</span> Fascinantes
         </h1>
         <p className="text-lg text-muted-foreground max-w-3xl">
-          Os equinodermos são repletos de características surpreendentes que desafiam nossa compreensão da vida marinha. 
-          Descubra fatos extraordinários sobre estes animais únicos!
+          Equinodermos são cheios de surpresas! Descubra fatos incríveis que vão te deixar de boca aberta!
         </p>
       </div>
 

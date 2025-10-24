@@ -160,13 +160,13 @@ export const Classes = () => {
           As Cinco <span className="text-gradient">Classes</span> dos Equinodermos
         </h1>
         <p className="text-lg text-muted-foreground max-w-3xl leading-relaxed mb-6">
-          O filo Echinodermata é dividido em cinco classes viventes, cada uma representando distintas 
-          arquiteturas corporais, estratégias ecológicas e histórias evolutivas. Estas classes divergiram 
-          no início do Paleozoico e cada uma desenvolveu especializações morfológicas e comportamentais únicas.
+          Os equinodermos são divididos em 5 grupos principais (classes), cada um com corpo, 
+          comportamento e forma de vida diferentes. Eles evoluíram há muito tempo e cada grupo 
+          desenvolveu características especiais.
         </p>
         <p className="text-muted-foreground max-w-3xl leading-relaxed">
-          Adicionalmente, existem cerca de 20 classes extintas conhecidas apenas do registro fóssil, 
-          demonstrando a extraordinária diversificação evolutiva deste filo ao longo de mais de 500 milhões de anos.
+          Também existem cerca de 20 grupos extintos conhecidos apenas por fósseis, 
+          mostrando como esse grupo de animais se diversificou ao longo de mais de 500 milhões de anos!
         </p>
       </div>
 

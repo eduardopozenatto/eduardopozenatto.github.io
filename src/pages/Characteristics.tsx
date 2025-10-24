@@ -12,23 +12,23 @@ import { CheckCircle2, Microscope, Network, Shield, Dna } from "lucide-react";
 export const Characteristics = () => {
   const mainCharacteristics = [
     {
-      title: "Simetria Radial Pentarradial",
-      description: "Os equinodermos adultos apresentam simetria radial pentarradial, ou seja, o corpo está organizado em torno de um eixo central com cinco raios (ou múltiplos de cinco). Esta característica é única entre deuterostômios e representa uma adaptação ao modo de vida bentônico. Interessantemente, as larvas são bilateralmente simétricas, evidenciando a ancestralidade bilateral do filo. A simetria radial permite que o animal interaja com o ambiente de forma equitativa em todas as direções, sem uma extremidade anterior ou posterior definida.",
+      title: "Simetria Radial (Formato de Estrela)",
+      description: "O corpo dos equinodermos é organizado em forma de estrela com 5 partes (ou múltiplos de 5). É como se desenhássemos uma estrela de 5 pontas! Curiosamente, quando são bebês (larvas), eles têm formato bilateral (como nós), mas ao crescer mudam para o formato radial. Isso ajuda eles a interagirem com o ambiente em todas as direções, sem ter 'frente' ou 'trás'.",
       icon: Network
     },
     {
-      title: "Endoesqueleto de Carbonato de Cálcio",
-      description: "O endoesqueleto dos equinodermos é formado por placas ou ossículos de carbonato de cálcio (calcita) na forma de cristais porosos chamados estereoma. Este esqueleto interno é derivado do mesoderma e pode ser rígido (como em ouriços-do-mar) ou flexível (como em estrelas-do-mar e pepinos-do-mar). Os ossículos podem apresentar espinhos, tubérculos e pedicelários. A estrutura porosa do estereoma permite a permeação de tecidos vivos e sistema vascular aquífero através do esqueleto.",
+      title: "Esqueleto Interno de Calcário",
+      description: "Eles têm um esqueleto por dentro do corpo, feito de calcário (o mesmo material das conchas). É como se tivessem pequenas placas de pedra embaixo da pele! Em ouriços-do-mar, é bem duro e rígido. Em estrelas-do-mar é mais flexível. E nos pepinos-do-mar é bem molinho. Muitos têm espinhos saindo dessas placas, o que dá o nome 'pele espinhosa'.",
       icon: Shield
     },
     {
-      title: "Sistema Vascular Aquífero (Ambulacral)",
-      description: "É a característica diagnóstica mais distintiva do filo. Trata-se de um sistema hidráulico único composto por um sistema de canais preenchidos com fluido celômico filtrado. Inclui: madreporito (placa perfurada que conecta o sistema à água do mar), canal pétreo, canal circular, canais radiais e centenas de pés ambulacrários (podias). Cada pé possui uma ampola muscular interna e uma ventosa terminal. A contração da ampola força líquido para o pé, estendendo-o; músculos no pé retraem-no. Este sistema é multifuncional: locomoção, alimentação, respiração, excreção e percepção sensorial.",
+      title: "Sistema Hidráulico de Movimento",
+      description: "Esta é a característica mais especial! Eles têm um sistema de tubos cheios de água que funciona como um sistema hidráulico. Imagine mangueiras conectadas com centenas de 'pezinhos' com ventosas. Quando a água é bombeada para os pezinhos, eles esticam e grudam nas superfícies. Quando a água sai, eles encolhem. É assim que se movem! Este sistema também ajuda na respiração, alimentação e até para sentir o ambiente.",
       icon: Microscope
     },
     {
-      title: "Deuterostomia",
-      description: "Os equinodermos são deuterostômios, compartilhando este padrão de desenvolvimento embrionário com hemicordados e cordados. Características incluem: clivagem radial e indeterminada, blastóporo que origina o ânus (boca forma-se secundariamente), e celoma de origem enterocélica (formado por evaginação do arquêntero). Esta relação filogenética torna os equinodermos fundamentais para compreender a evolução dos vertebrados, apesar de sua aparência radicalmente diferente.",
+      title: "Parentes dos Vertebrados",
+      description: "Acredite ou não, equinodermos são parentes evolutivos mais próximos de nós (humanos) do que de insetos ou moluscos! Isso é revelado pelo desenvolvimento dos embriões. Quando são embriões, compartilham características com os nossos embriões. Por isso, estudar equinodermos nos ajuda a entender como os animais com coluna vertebral evoluíram.",
       icon: Dna
     }
   ];
@@ -36,7 +36,7 @@ export const Characteristics = () => {
   const anatomicalSystems = [
     {
       system: "Sistema Digestório",
-      description: "Completo na maioria, com boca (geralmente no lado oral) e ânus (no lado aboral). Ausência de fígado e estruturas homólogas. Asteroides podem everter o estômago para digestão externa. Echinoides possuem lanterna de Aristóteles (aparato mastigatório complexo com cinco dentes). Holotúrias têm intestino longo e convoluto. Alguns crinoides e ofiuroides carecem de ânus funcional.",
+      description: "A maioria tem boca e ânus. A boca fica na parte de baixo e o ânus em cima. Não têm fígado. Estrelas-do-mar têm um poder incrível: podem botar o estômago para fora pela boca para digerir a comida! Ouriços-do-mar têm um aparelho mastigador com 5 dentes chamado 'lanterna de Aristóteles'. Pepinos-do-mar têm um intestino bem longo.",
       details: [
         "Boca circundada por peristômio (membrana oral)",
         "Esôfago curto conecta a cavidade estomacal",
@@ -46,8 +46,8 @@ export const Characteristics = () => {
       ]
     },
     {
-      system: "Sistema Circulatório e Celoma",
-      description: "Não possuem sistema circulatório verdadeiro com coração e vasos. O celoma (cavidade corporal) é extenso e preenchido com fluido celômico rico em celomócitos (amebócitos). O fluido circula por batimento de cílios e contração da parede corporal. Existem três sistemas celômicos principais: perihemático (ao redor do trato digestório), hiponeural e vascular aquífero.",
+      system: "Sistema Circulatório",
+      description: "Eles não têm coração nem veias como nós! O corpo é cheio de um líquido especial que circula batendo cílios (pelinhos microscópicos) e contraindo a parede do corpo. Este líquido carrega nutrientes e oxigênio. É bem diferente do nosso sangue, mas faz o mesmo trabalho.",
       details: [
         "Fluido celômico transporta nutrientes, gases e excretas",
         "Celomócitos realizam fagocitose e coagulação",
@@ -58,7 +58,7 @@ export const Characteristics = () => {
     },
     {
       system: "Sistema Nervoso",
-      description: "Descentralizado e relativamente simples. Consiste em três componentes: sistema ectoneural (sensorial, forma anel nervoso e nervos radiais), sistema hiponeural (motor, controla pés ambulacrários) e sistema aboral (presente em crinoides e ouriços). Ausência de cérebro ou gânglios centralizados. Coordenação através de redes neurais difusas e sinapses químicas.",
+      description: "Não têm cérebro! Em vez disso, têm um anel de nervos ao redor da boca e 5 nervos que vão pelos braços ou corpo. Têm células sensoriais espalhadas pela pele para sentir toque, luz e químicos. Algumas estrelas-do-mar têm 'olhinhos' simples na ponta dos braços para detectar luz.",
       details: [
         "Anel nervoso circunda a boca",
         "Cinco nervos radiais percorrem cada raio",
@@ -69,8 +69,8 @@ export const Characteristics = () => {
       ]
     },
     {
-      system: "Sistema Respiratório e Excretor",
-      description: "Não existem órgãos respiratórios especializados na maioria das espécies. Troca gasosa ocorre por difusão através de estruturas dérmicas finas: papulas ou brânquias dérmicas (asteroides), brânquias peristomiais (echinoides), árvores respiratórias (holotúrias), bursas (ofiuroides). Excreção também por difusão; celomócitos removem resíduos do fluido celômico. Alguns órgãos eliminam celomócitos carregados de excretas.",
+      system: "Respiração e Excreção",
+      description: "Não têm pulmões! Respiram através da pele fina. Estrelas-do-mar têm pequenas bolsinhas na pele chamadas papulas. Pepinos-do-mar têm 'árvores respiratórias' dentro do corpo. Ouriços têm brânquias ao redor da boca. Para eliminar resíduos, usam o mesmo sistema - tudo passa através da pele ou é eliminado por células especiais.",
       details: [
         "Papulas: pequenas evaginações da parede corporal",
         "Árvores respiratórias em holotúrias conectam-se à cloaca",
@@ -83,20 +83,20 @@ export const Characteristics = () => {
 
   const specialFeatures = [
     {
-      title: "Capacidade Regenerativa Extraordinária",
-      content: "Os equinodermos possuem uma das mais notáveis capacidades regenerativas do reino animal. Asteroides podem regenerar braços inteiros a partir de uma porção do disco central contendo parte do anel nervoso e canal radial. Algumas espécies reproduzem-se assexuadamente por fissão seguida de regeneração. Holotúrias regeneram órgãos internos completos após evisceração. O processo envolve desdiferenciação celular, formação de blastema regenerativo e rediferenciação coordenada de tecidos."
+      title: "Superpoder de Regeneração",
+      content: "Eles têm um poder incrível de regeneração! Estrelas-do-mar podem regenerar braços inteiros - algumas até conseguem virar um animal completo a partir de só um braço (se tiver um pedacinho do centro). Pepinos-do-mar podem regenerar órgãos internos completos em poucas semanas. É como um superpoder real!"
     },
     {
-      title: "Estruturas Dérmicas Especializadas",
-      content: "A superfície corporal apresenta diversas estruturas: espinhos móveis articulados (principalmente em echinoides), pedicelários (pequenas pinças de três ou quatro valvas para limpeza e defesa), papulas (brânquias dérmicas para respiração), esferídeos (órgãos sensoriais esféricos em ouriços regulares). Os pedicelários podem ser venenosos em algumas espécies, secretando toxinas através de glândulas especializadas."
+      title: "Estruturas Especiais na Pele",
+      content: "A pele tem várias estruturas especiais: espinhos móveis (principalmente em ouriços), pedicelários (pincinhas minúsculas para limpar e se defender - algumas são venenosas!), papulas (bolsinhas para respirar), e órgãos sensoriais esféricos. É como ter várias ferramentas diferentes na superfície do corpo!"
     },
     {
-      title: "Madreporito e Sistema Hidropórico",
-      content: "O madreporito é uma placa calcária perfurada localizada no lado aboral (geralmente visível como mancha clara na superfície). Conecta o sistema vascular aquífero ao ambiente externo através do canal pétreo (ou hidropórico). O fluido do sistema ambulacral é celômico mas filtrado, com composição ligeiramente diferente da água do mar. O madreporito permite equalização de pressão e troca limitada de fluidos com o ambiente."
+      title: "Madreporito: A Entrada de Água",
+      content: "O madreporito é como uma 'porta de entrada' de água. É uma placa com buraquinhos que geralmente fica em cima do animal e parece uma manchinha clara. Por ali entra água do mar que vai para o sistema hidráulico. É como uma peneira que filtra a água antes dela entrar no sistema de tubos."
     },
     {
-      title: "Autotomia Defensiva",
-      content: "Muitos equinodermos praticam autotomia - auto-amputação de partes corporais como mecanismo de defesa contra predadores. Ofiuroides rapidamente soltam braços quando capturados. Asteroides podem autotomizar braços para escapar. Holotúrias evisceram órgãos internos (evisceração). Estas estruturas são posteriormente regeneradas. Planos de fratura predefinidos facilitam a separação com mínimo dano."
+      title: "Defesa: Soltar Partes do Corpo",
+      content: "Quando atacados, podem soltar partes do corpo! Estrelas-serpentes soltam os braços rapidinho quando são pegas. Pepinos-do-mar fazem algo ainda mais incrível: expelem os órgãos internos para confundir o predador! Não se preocupe - depois eles regeneram tudo de novo. É como lagartos que soltam o rabo!"
     }
   ];
 
@@ -107,10 +107,9 @@ export const Characteristics = () => {
           Características Gerais dos <span className="text-gradient">Equinodermos</span>
         </h1>
         <p className="text-lg text-muted-foreground max-w-3xl leading-relaxed">
-          O filo Echinodermata ("pele espinhosa") compreende aproximadamente 7.000 espécies viventes e mais de 13.000 
-          espécies fósseis. São exclusivamente marinhos, eurihalinos (toleram variações de salinidade), bentônicos 
-          (vivem associados ao substrato) e distribuídos desde a zona entremarés até profundidades abissais superiores 
-          a 10.000 metros.
+          Echinodermata significa "pele espinhosa". Existem cerca de 7.000 espécies vivas hoje! 
+          Todos vivem apenas no mar, desde praias rasas até profundidades de mais de 10 km. 
+          São animais que vivem no fundo do oceano, grudados em rochas ou se movendo pela areia.
         </p>
       </div>
 
@@ -162,53 +161,49 @@ export const Characteristics = () => {
             <div>
               <h2 className="mb-4 text-3xl font-bold">Sistema Vascular Aquífero em Detalhe</h2>
               <p className="mb-4 text-muted-foreground leading-relaxed">
-                O sistema vascular aquífero (SVA) ou sistema ambulacral é a sinapomorfia (característica derivada compartilhada) 
-                que define o filo Echinodermata. É um sistema hidráulico de canais derivado do celoma (protocelo), 
-                preenchido com fluido celômico modificado.
+                O sistema hidráulico (também chamado sistema ambulacral) é o que torna os equinodermos únicos! 
+                É um conjunto de tubos cheios de líquido que funciona como um sistema hidráulico de uma máquina. 
+                Este líquido é parecido com a água do mar, mas um pouco diferente.
               </p>
               
               <div className="space-y-4 mb-6">
                 <div>
-                  <h4 className="font-semibold text-lg mb-2">Componentes do Sistema:</h4>
+                  <h4 className="font-semibold text-lg mb-2">Partes do Sistema:</h4>
                   <ul className="space-y-2 text-sm text-muted-foreground">
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                      <span><strong>Madreporito:</strong> Placa perfurada aboral, conexão com meio externo</span>
+                      <span><strong>Madreporito:</strong> Placa com buraquinhos que conecta com a água do mar</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                      <span><strong>Canal pétreo/hidropórico:</strong> Conecta madreporito ao canal anelar</span>
+                      <span><strong>Canal de pedra:</strong> Tubo que leva água para dentro do sistema</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                      <span><strong>Canal anelar (circular):</strong> Circunda o esôfago, distribui fluido</span>
+                      <span><strong>Canal circular:</strong> Anel que distribui água ao redor da boca</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                      <span><strong>Canais radiais:</strong> 5 canais ao longo dos raios corporais</span>
+                      <span><strong>Canais radiais:</strong> 5 tubos que vão pelos braços ou corpo</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                      <span><strong>Canais laterais:</strong> Conectam canais radiais aos pés</span>
+                      <span><strong>Ampolas:</strong> Bolsinhas musculares que empurram água para os pés</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                      <span><strong>Ampolas:</strong> Bulbos musculares que controlam extensão dos pés</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                      <span><strong>Pés ambulacrários (podias):</strong> Estruturas tubulares com ventosa</span>
+                      <span><strong>Pezinhos (pés ambulacrários):</strong> Centenas de tubinhos com ventosas</span>
                     </li>
                   </ul>
                 </div>
 
                 <div>
-                  <h4 className="font-semibold text-lg mb-2">Mecanismo de Funcionamento:</h4>
+                  <h4 className="font-semibold text-lg mb-2">Como Funciona:</h4>
                   <p className="text-sm text-muted-foreground leading-relaxed mb-2">
-                    A locomoção ocorre por pressão hidráulica. Quando a ampola contrai, força fluido para o pé, 
-                    que se estende. A ventosa adere ao substrato. Músculos longitudinais no pé contraem, 
-                    bombeando fluido de volta à ampola e retraindo o pé. Válvulas impedem refluxo. 
-                    Milhares de pés atuam em ondas coordenadas pelo sistema nervoso radial.
+                    É como um sistema de mangueiras! Quando a ampola (bolsinha) aperta, empurra água para o pezinho, 
+                    fazendo ele esticar. A ventosa na ponta gruda no chão. Aí os músculos do pezinho contraem, 
+                    puxam a água de volta e o pé encolhe. Isso acontece em milhares de pezinhos ao mesmo tempo, 
+                    em ondas coordenadas. É assim que eles caminham!
                   </p>
                 </div>
               </div>
@@ -221,19 +216,17 @@ export const Characteristics = () => {
                 className="rounded-lg shadow-lg w-full"
               />
               <p className="text-sm text-muted-foreground text-center leading-relaxed">
-                Corte transversal mostrando madreporito, canal pétreo, canal anelar, canais radiais, 
-                ampolas e pés ambulacrários com ventosas terminais
+                Veja como o sistema hidráulico funciona: da entrada de água até os pezinhos com ventosas
               </p>
 
               <div className="rounded-lg bg-muted/50 p-4">
-                <h4 className="font-semibold mb-2">Funções Múltiplas do SVA:</h4>
+                <h4 className="font-semibold mb-2">Para que Serve:</h4>
                 <ul className="space-y-1 text-sm text-muted-foreground">
-                  <li>• <strong>Locomoção:</strong> Aderência e movimentação sobre substratos</li>
-                  <li>• <strong>Alimentação:</strong> Captura e manipulação de alimento</li>
-                  <li>• <strong>Respiração:</strong> Troca gasosa através das paredes dos pés</li>
-                  <li>• <strong>Excreção:</strong> Eliminação de resíduos metabólicos</li>
-                  <li>• <strong>Percepção sensorial:</strong> Quimiorreceptores e mecanorreceptores</li>
-                  <li>• <strong>Fixação:</strong> Adesão a rochas em correntes fortes</li>
+                  <li>• <strong>Andar:</strong> Grudar e se mover pelo fundo do mar</li>
+                  <li>• <strong>Comer:</strong> Pegar e segurar comida</li>
+                  <li>• <strong>Respirar:</strong> Trocar oxigênio através dos pezinhos</li>
+                  <li>• <strong>Sentir:</strong> Detectar cheiros e toques</li>
+                  <li>• <strong>Se fixar:</strong> Grudar forte em rochas quando tem correnteza</li>
                 </ul>
               </div>
             </div>

@@ -9,8 +9,8 @@ export const Diseases = () => {
           <span className="text-gradient">Desafios</span> dos Equinodermos
         </h1>
         <p className="text-lg text-muted-foreground max-w-3xl">
-          Os equinodermos enfrentam diversas ameaças, desde doenças específicas até impactos ambientais causados 
-          pelas mudanças climáticas. Compreender esses desafios é crucial para a conservação dos ecossistemas marinhos.
+          Os equinodermos enfrentam vários problemas: doenças, aquecimento global e poluição. 
+          Entender esses desafios nos ajuda a proteger os oceanos.
         </p>
       </div>
 
@@ -29,9 +29,8 @@ export const Diseases = () => {
         </CardHeader>
         <CardContent className="space-y-4">
           <p className="text-muted-foreground leading-relaxed">
-            A Síndrome de Desgaste da Estrela-do-Mar é uma doença devastadora que afeta múltiplas espécies de 
-            asteroides ao longo da costa do Pacífico Norte e outras regiões. Esta síndrome tem causado mortalidades 
-            em massa com impactos ecológicos significativos.
+            Esta doença tem matado muitas estrelas-do-mar, principalmente na costa do Pacífico. 
+            É muito grave e afeta todo o ecossistema marinho.
           </p>
 
           <div className="rounded-lg border border-destructive/30 bg-destructive/5 p-4">
@@ -64,26 +63,26 @@ export const Diseases = () => {
             <div className="rounded-lg border border-border p-4 bg-muted/30">
               <h4 className="font-semibold mb-2">Causas</h4>
               <p className="text-sm text-muted-foreground mb-2">
-                A pesquisa identificou múltiplos fatores associados:
+                Cientistas descobriram várias causas:
               </p>
               <ul className="space-y-1 text-sm text-muted-foreground">
-                <li>• Vírus densovírus (SSaDV)</li>
-                <li>• Estresse térmico devido ao aquecimento oceânico</li>
-                <li>• Mudanças na química da água</li>
-                <li>• Possível interação de múltiplos patógenos</li>
+                <li>• Um vírus específico</li>
+                <li>• Água muito quente (aquecimento global)</li>
+                <li>• Mudanças na qualidade da água</li>
+                <li>• Vários problemas acontecendo juntos</li>
               </ul>
             </div>
 
             <div className="rounded-lg border border-border p-4 bg-muted/30">
               <h4 className="font-semibold mb-2">Impactos Ecológicos</h4>
               <p className="text-sm text-muted-foreground mb-2">
-                A perda de estrelas-do-mar afeta todo o ecossistema:
+                Quando estrelas-do-mar morrem, afeta todo o oceano:
               </p>
               <ul className="space-y-1 text-sm text-muted-foreground">
-                <li>• Explosão populacional de mexilhões e outros bivalves</li>
-                <li>• Alteração na estrutura das comunidades bentônicas</li>
-                <li>• Perda de predadores-chave</li>
-                <li>• Desequilíbrio em cadeias alimentares marinhas</li>
+                <li>• Mexilhões se multiplicam demais</li>
+                <li>• Mudança em toda a comunidade marinha</li>
+                <li>• Perda de um predador importante</li>
+                <li>• Desequilíbrio na cadeia alimentar</li>
               </ul>
             </div>
           </div>
@@ -106,7 +105,7 @@ export const Diseases = () => {
             </CardHeader>
             <CardContent>
               <p className="text-sm text-muted-foreground mb-3 leading-relaxed">
-                O aumento da temperatura oceânica afeta diretamente os equinodermos:
+                Água mais quente causa vários problemas:
               </p>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li className="flex items-start gap-2">
@@ -140,7 +139,7 @@ export const Diseases = () => {
             </CardHeader>
             <CardContent>
               <p className="text-sm text-muted-foreground mb-3 leading-relaxed">
-                A absorção de CO₂ pelos oceanos causa acidificação, impactando:
+                O CO₂ da atmosfera torna a água do mar mais ácida, causando:
               </p>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li className="flex items-start gap-2">
@@ -174,7 +173,7 @@ export const Diseases = () => {
             </CardHeader>
             <CardContent>
               <p className="text-sm text-muted-foreground mb-3 leading-relaxed">
-                Diversos poluentes ameaçam populações de equinodermos:
+                Vários tipos de poluição prejudicam os equinodermos:
               </p>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li className="flex items-start gap-2">
@@ -206,9 +205,9 @@ export const Diseases = () => {
         </CardHeader>
         <CardContent className="space-y-4">
           <p className="text-muted-foreground leading-relaxed">
-            O declínio das populações de equinodermos tem consequências em cascata para os ecossistemas marinhos. 
-            Como muitas espécies desempenham papéis ecológicos cruciais (predadores-chave, herbívoros, detritívoros), 
-            sua redução desestabiliza comunidades inteiras.
+            Quando diminui o número de equinodermos, todo o oceano sofre. Eles têm papéis importantes: 
+            alguns comem algas, outros comem moluscos, alguns limpam o fundo do mar. 
+            Sem eles, o equilíbrio do oceano fica bagunçado.
           </p>
 
           <div className="rounded-lg border border-border p-4 bg-muted/30">
@@ -250,16 +249,15 @@ export const Diseases = () => {
       {/* Conservation Message */}
       <Card className="ocean-gradient text-primary-foreground">
         <CardContent className="p-8">
-          <h3 className="mb-4 text-2xl font-bold">Conservação e Futuro</h3>
+          <h3 className="mb-4 text-2xl font-bold">Como Proteger os Equinodermos</h3>
           <p className="mb-4 leading-relaxed">
-            A conservação dos equinodermos requer ações coordenadas para mitigar mudanças climáticas, reduzir poluição 
-            e proteger habitats marinhos. Áreas marinhas protegidas, regulação da pesca de pepinos-do-mar, e 
-            monitoramento contínuo de populações são estratégias essenciais.
+            Para proteger os equinodermos precisamos: combater o aquecimento global, reduzir poluição 
+            e criar áreas marinhas protegidas. Também precisamos controlar a pesca de pepinos-do-mar 
+            e monitorar as populações constantemente.
           </p>
           <p className="leading-relaxed">
-            A pesquisa científica continua sendo fundamental para compreender melhor as doenças emergentes, 
-            desenvolver estratégias de conservação eficazes e prever como as populações responderão às mudanças 
-            ambientais futuras. O destino dos equinodermos está intimamente ligado à saúde geral dos oceanos.
+            Cientistas continuam estudando para entender melhor as doenças e criar estratégias de proteção. 
+            A saúde dos equinodermos está ligada à saúde dos oceanos. Proteger eles é proteger todo o mar!
           </p>
         </CardContent>
       </Card>
