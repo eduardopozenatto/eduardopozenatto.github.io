@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import waterVascularImage from "@/assets/water-vascular-system.jpg";
-import radialSymmetry from "@/assets/radial-symmetry.jpg";
+import radialSymmetry from "@/assets/radial_symmetry.jpg";
 import endoskeleton from "@/assets/endoskeleton.jpg";
 import digestiveSystem from "@/assets/digestive-system.jpg";
 import nervousSystem from "@/assets/nervous-system.jpg";
