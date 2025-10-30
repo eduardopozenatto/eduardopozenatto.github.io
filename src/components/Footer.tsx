@@ -1,28 +1,16 @@
 export const Footer = () => {
   const references = [
     {
-      text: "Brusca, R. C., & Brusca, G. J. (2003). Invertebrates. Sinauer Associates.",
-      url: "#",
+      text: "Echinodermos: Características, classes e exemplos",
+      url: "https://www.todamateria.com.br/equinodermos/",
     },
     {
-      text: "Ruppert, E. E., Fox, R. S., & Barnes, R. D. (2004). Invertebrate Zoology. Brooks/Cole.",
-      url: "#",
+      text: "Echinodermos: Características e classificação",
+      url: "https://mundoeducacao.uol.com.br/biologia/equinodermos.htm",
     },
     {
-      text: "Pechenik, J. A. (2015). Biology of the Invertebrates. McGraw-Hill.",
-      url: "#",
-    },
-    {
-      text: "Smithsonian National Museum of Natural History",
-      url: "https://naturalhistory.si.edu/",
-    },
-    {
-      text: "Marine Biological Laboratory",
-      url: "https://www.mbl.edu/",
-    },
-    {
-      text: "WoRMS - World Register of Marine Species",
-      url: "https://www.marinespecies.org/",
+      text: "Brasil Escola: Echinodermos",
+      url: "https://www.google.com/amp/s/brasilescola.uol.com.br/amp/biologia/equinodermos.htm",
     },
   ];
 
