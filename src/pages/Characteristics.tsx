@@ -2,11 +2,11 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import waterVascularImage from "@/assets/water-vascular-system.jpg";
 import radialSymmetry from "@/assets/radial_symmetry.jpg";
 import endoskeleton from "@/assets/endoskeleton.jpg";
-import digestiveSystem from "@/assets/digestive-system.jpg";
-import nervousSystem from "@/assets/nervous-system.jpg";
+import digestiveSystem from "@/assets/sistema_digestivo.png";
+import nervousSystem from "@/assets/sistema_nervoso.jpeg";
 import regeneration from "@/assets/regeneration.jpg";
 import pedicellariae from "@/assets/pedicellariae.jpg";
-import madreporite from "@/assets/madreporite.jpg";
+import madreporite from "@/assets/madreporito.jpg";
 import { CheckCircle2, Microscope, Network, Shield, Dna } from "lucide-react";
 
 export const Characteristics = () => {
